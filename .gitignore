@@ -1,0 +1,27 @@
+# Arquivos não relacionados com a construção de modelos de pré-seleção de matérias do DOU
+
+*.txt
+!requirements.txt
+docs
+registros
+scrap_dou
+temp
+twitter_post
+analises/*
+!analises/modelo_classificacao_artigos_DOU_*.ipynb
+!analises/*.py
+analises/dou_sorter_common_functions_old.py
+analises/dou_sorter_common_functions_old_2.py
+
+# Arquivos do repositório DOU_adm, de aplicativo web de administração do Boletim DOU
+
+scripts
+
+
+# Arquivos grandes
+
+dados/*
+!dados/.gitignore
+modelos/*
+!modelos/.gitignore
+!modelos/requirements.txt
