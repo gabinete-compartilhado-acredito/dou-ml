@@ -7,6 +7,8 @@ Os modelos treinados e testados são exportados para arquivos `.joblib` que são
 pela [AWS Lambda](https://aws.amazon.com/pt/lambda/) e utilizados dentro de um sistema maior de captura e filtragem
 de matérias do DOU para a produção do Boletim DOU Acredito (grupo de notícias no whastapp).
 
+Veja também o [DOUTOR](https://github.com/gabinete-compartilhado-acredito/DOUTOR), nosso código de captura e filtragem por palavra-chave do Diário Oficial da União.
+
 #### Disclaimer
 
 Embora disponibilizados aqui, estes notebooks não foram construídos especificamente para serem distribuídos nem testados em outros ambientes
